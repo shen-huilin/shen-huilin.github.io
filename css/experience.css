@@ -1,0 +1,109 @@
+body{
+    margin: 0;  /* 把默认边距删除 */
+    font-family: "微软雅黑","Open Sans", sans-serif;
+    font-size: 16px;
+    color: #222;
+    background: #f6f6f6;
+}
+
+div.inner{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 页眉区 */
+div#header{
+    padding: 40px 0 0px;
+}
+
+div#header div.inner{
+    text-align: center;
+}
+
+div#header div.inner h2{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e6e6e6;
+}
+/* 页眉区结束 */
+
+/* 内容区 */
+div#content div.inner{
+    padding-top: 50px;
+}
+
+/* 列表中间线 */
+div#timeline::before{
+    content: "";
+    width: 2px;
+    height: 1500px;
+    background: #717171;
+    position: absolute;
+    left: 50%;
+    opacity: .2;
+}
+
+div#timeline ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* 列表 */
+div#timeline div.box{
+    margin-bottom: 75px;
+}
+
+/* 左侧时间 */
+div#timeline div.box div.con1{
+    width: 400px;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+div#timeline div.box div.con1 div.time{
+    position: relative;
+    text-align: right;   /* 文字右居中 */
+}
+/* 时间二级标题 */
+div#timeline div.box div.con1 div.time h2{
+    font-weight: bold;
+    font-size: 16px;
+}
+/* 内容三级标题 */
+div#timeline div.box div.con1 div.time h3{
+    font-size: 14px;
+    font-weight: normal;
+    color: #717171;
+    margin-top: 14px;
+    line-height: 30px;
+}
+
+/* 右侧描述 */
+div#timeline div.box div.con2{
+    width: 400px;
+    margin-left: 580px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+div#timeline div.box div.con2 div.text{
+    text-align: left;   /* 文字左居中 */
+}
+
+div#timeline div.box div.con2 div.text h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 24px 0 10px;
+}
+/* 内容段落 */
+div#timeline div.box div.con2 div.text p{
+    font-size: 14px;
+    color: #717171;
+    line-height: 30px;    /* 行间距 */
+}
+
+/* 内容区结束 */

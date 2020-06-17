@@ -1,0 +1,251 @@
+body{
+    background-color: #fff;
+    margin: 0;  /* 把默认边距删除 */
+    font-family: "微软雅黑","Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+div.inner{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 页眉区 */
+div#header{
+    width: 100%;   /* 让页眉铺满整个屏幕 */
+    height: 100vh;
+    background-color: black;
+    background-image: url(../img/1.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: table;
+}
+
+div#header div.inner{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+
+div#header div.inner h1{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 80px;
+}
+/* 页眉区结束 */
+
+/* 导航区开始 */
+div#nav{
+    height: 60px;
+    background: #f6f6f6;
+}
+
+div#nav div.inner div.navbar{
+    text-align: center;   /* 设置文字居中 */
+}
+
+div.navbar ul{
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.navbar ul li{
+    float: left; /* 列表元素左浮动 */
+    display: block;
+}
+
+/* 设置文字样式 */
+div.navbar ul li a{
+    margin: 0 130px 0 0;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #808080;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+/* 悬停时文字样式 */
+div.navbar ul li a:hover{
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 16px;
+    color: #222222;
+}
+/* 导航区结束 */
+
+
+/* 内容区 */
+div#content{
+    height: 600px;
+    background-color: #fff;
+}
+
+/* 设置图片格式 */
+div#content div.inner div#photo{
+    height: 450px;
+    width: 350px;
+    margin-top: 75px;
+    background-image: url(../img/photo.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+div#content div.inner div#intro{
+    height: 450px;
+    width: 500px;
+    margin-top: 75px;
+    background-color: whitesmoke;
+    float: left;
+}
+
+/* 右侧介绍表格样式 */
+div#intro  table{
+    margin-top: 30px;
+    margin-left: 85px;
+    text-align: center;
+    position: absolute;
+    letter-spacing: 2px; /* 字间距 */
+}
+
+div#intro table tr{
+    height: 60px;
+}
+
+/* 表格文字样式 */
+div#intro table td.title{
+    padding-right: 10px;
+    font-weight:800;
+    font-size: 13px;
+}
+
+div#intro table td{
+    font-size: 13px;
+    font-weight: 300;
+    padding: 0;
+}
+/* 内容区结束 */
+
+
+/* 页脚区 */
+div#footer{
+    height: 300px;
+    background-color: black;
+}
+
+/* 地址 */
+div#footer div.inner div#addr{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    float: left;
+    margin-right: 140px;
+    margin-left: 35px;
+}
+
+/* 对应图片样式 */
+div#addr div.f1{
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    margin: 20px auto 0 auto;
+}
+
+/* 文字样式 */
+div#addr div.text{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* 标题采用4级标题 */
+div#addr div.text h4{
+    font-size: 1.2em;
+    color: #fff;
+    letter-spacing: 3px;  /* 字间距 */
+    margin-bottom: .5em;
+}
+
+/* 具体内容样式 */
+div#addr div.text p{
+    color: #999;
+    font-size: 14px;
+    line-height: 1.5em;   /* 行间距 */
+    margin: 0 0 10px;
+}
+
+
+/* 邮箱 */
+div#footer div.inner div#email{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    float: left;
+    margin-right: 160px;
+}
+
+div#email div.f2{
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    margin: 20px auto 0 auto;
+}
+
+div#email div.text{
+    margin-top: 10px;
+    text-align: center;
+}
+
+div#email div.text h4{
+    font-size: 1.2em;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: .5em;
+}
+
+div#email div.text p{
+    color: #999;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin: 0 0 10px;
+}
+
+/* 电话 */
+div#footer div.inner div#phone{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    float: left;
+}
+
+div#phone div.f3{
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    margin: 20px auto 0 auto;
+}
+
+div#phone div.text{
+    margin-top: 10px;
+    text-align: center;
+}
+
+div#phone div.text h4{
+    font-size: 1.2em;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: .5em;
+}
+
+div#phone div.text p{
+    color: #999;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin: 0 0 10px;
+}
+/* 页脚区结束 */

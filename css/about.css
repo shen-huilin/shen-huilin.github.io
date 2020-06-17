@@ -1,0 +1,143 @@
+body{
+    margin: 0;  /* 把默认边距删除 */
+    padding: 0;
+    font-family: "微软雅黑","Open Sans", sans-serif;
+    font-size: 16px;
+    color: #222;
+    background: #f6f6f6;
+}
+
+div.inner{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 页眉区 */
+div#header{
+    padding: 40px 0 0px;
+}
+
+div#header div.inner{
+    text-align: center; 
+}
+
+/* 文字（二级标题）格式 */
+div#header div.inner h2{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e6e6e6;  /* 边框底部样式 */
+}
+/* 页眉区结束 */
+
+
+/* 内容区 */
+div#content {
+    width: 693px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+/* 设置表格整体样式 */
+div#content table.resume_box {
+    border: 15px solid #efefef;
+    margin: 10px 0 0 100px;
+    padding: 0;
+    margin: 0;
+}
+
+table.resume_box tr {
+    margin: 0;
+    padding: 0;
+}
+
+/* 左边栏格式 */
+table.resume_box td.infomation_1 {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 266px;
+    vertical-align: top;
+}
+
+/* 标题样式 */
+div#content table.header {
+    margin-left: 20px;
+    padding: 0;
+    margin-top: 40px;
+}
+/* 标题文字样式 */
+table.header tr.title {
+    height: 30px;
+    font-weight: bold;
+    color: black;
+}
+/* 标题宽度 */
+table.header td.wid {
+    width: 225px;
+}
+
+/* 左栏内容区样式 */
+div#content div.list{
+    margin: 10px 0 22px 0;
+}
+/* 标题表格样式 */
+div.list table.list_l {
+    margin-left: 20px;
+}
+/* 文字样式 */
+.per_list {
+    line-height: 35px;
+    font-size: 12px;
+    color: #222;
+}
+/* 文字颜色 */
+div.list table.list_l span{
+    color:#466820 ;
+}
+
+/* 右边栏格式 */
+table.resume_box td.infomation_2 {
+    width: 386px;
+    vertical-align: top;
+    padding-left: 5px;
+    background-color: #efefef;
+}
+
+/* 标题栏样式 */
+div#content table.header {
+    margin-left: 20px;
+    border-bottom: 1px solid #91a875;  /* 下边框样式 */
+}
+/* 标题文字样式 */
+table.header p.txt {
+    width: 340px;
+    height: 8px;
+    line-height: 3px;
+    font-weight: bold;
+    color: #466820;   /* 标题颜色 */
+    text-align: left;
+}
+
+/* 右栏内容区样式 */
+div#content div.info{
+    margin-left: 40px;
+    padding: 10px 0 16px 0;
+}
+/* 内容表格样式 */
+div.info .info_list {
+  line-height: 24px;
+  font-size: 12px;
+  color: #000;   /* 文字颜色 */
+  overflow: hidden;
+}
+/* 内容区2文字样式 */
+div.info .in {
+  line-height: 22px;
+  font-size: 12px;
+  color: black;
+}
+
+/* 内容区样式结束 */

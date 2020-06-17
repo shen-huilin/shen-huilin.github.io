@@ -1,0 +1,138 @@
+body{
+    margin: 0;  /* 把默认边距删除 */
+    font-family: "微软雅黑","Open Sans", sans-serif;
+    font-size: 16px;
+    color: #222;
+    background: #f6f6f6;
+}
+
+div.inner{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 页眉区 */
+div#header{
+    padding: 40px 0 0px;
+}
+
+div#header div.inner{
+    text-align: center;
+}
+
+div#header div.inner h2{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e6e6e6;
+}
+/* 页眉区结束 */
+
+/* 内容区 */
+div#content div.inner{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div#content div.inner div#row{
+    margin-top: 50px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+div#row::before{
+    display: table;
+    content: " ";
+}
+
+div#row div.grid {
+    margin-top: 60px;
+}
+
+/* 网格样式 */
+div.grid div.item {
+  width: 250px;
+  float: left;
+  margin: 0 28px 30px 0;
+  overflow: hidden;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+/* 网格内容 */
+div.grid div.item .article {
+  border: 1px solid rgba(129, 129, 129, 0.1);
+  background: #ffffff;
+  padding: 30px 20px;
+}
+/* 图片样式 */
+div.grid div.item .article img {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+div.grid div.item .article .img-circle {
+  width: 133px;
+  height: 133px;
+  border-radius: 50%; /* 图片呈圆形 */
+}
+/* 文字样式 */
+div.grid div.item .article p {
+  line-height: 0.5;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 40px;
+  color: #818181;
+}
+div.grid div.item .article p span {
+  display: inline-block;
+  position: relative;
+}
+
+/* 时间样式 */
+div.grid div.item .article p span:before,
+div.grid div.item .article p span:after {
+  content: "";
+  margin-top: 1px;
+  position: absolute;
+  height: 5px;
+  border-top: 1px solid #dedede;
+  top: 0;
+  width: 60%;
+}
+
+div.grid div.item .article p span:before {
+  right: 100%;
+  margin-right: 5px;
+}
+div.grid div.item .article p span:after {
+  left: 100%;
+  margin-left: 5px;
+}
+
+/* 文字标题样式 */
+div.grid div.item .article h3 {
+  font-size: 16px;
+  padding: 0 10px 0 10px;
+  text-align: center;
+  letter-spacing: 0.1;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* 文字样式 */
+div.grid div.item .article .content {
+  margin-top: 30px;
+  padding: 0 10px 0 10px;
+  text-align: justify;
+  font-size: 13px;
+  line-height: normal;
+  color: #5f5f5f;
+}
+
+/* 内容区结束 */

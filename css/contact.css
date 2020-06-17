@@ -1,0 +1,66 @@
+body{
+    margin: 0;  /* 把默认边距删除 */
+    font-family: "微软雅黑","Open Sans", sans-serif;
+    font-size: 16px;
+    color: #222;
+    background: #f6f6f6;
+}
+
+div.inner{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 页眉区 */
+div#header{
+    padding: 40px 0 0px;
+}
+
+div#header div.inner{
+    text-align: center;
+}
+
+div#header div.inner h2{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e6e6e6;
+}
+/* 页眉区结束 */
+
+/* 内容区 */
+div#contact{
+    padding: 30px 0;
+}
+
+/* 文本框 */
+div#contact div.collect div.text{
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* 文本域 */
+div#contact  div.form-group{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* 底部 */
+div#contact div.footer{
+    text-align: center;
+}
+/* 提交按钮 */
+div#contact  div.footer button{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background-color: black;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #fff;
+    margin-top: 15px;
+}
+/* 内容区结束 */

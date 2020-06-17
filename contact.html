@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我</title>
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+
+
+<body>
+    <!-- 页眉区header -->
+    <div id="header">
+        <!-- 每个区都有一个公共类inner，用来放置内容，内容区宽度固定，居中 -->
+        <div class="inner">
+            <h2>联系我</h2>
+        </div>
+    </div>
+    <!-- end of header -->
+
+    <!-- 内容区content，表单样式 -->
+    <div id="contact">
+        <form action="" method="">
+            <div class="collect">
+                <!-- 文本框-姓名 -->
+                <div class="text">
+                    <div class="form-group">
+                        <input type="text" id="name"  placeholder="姓名" >
+                    </div>
+                </div>
+
+                <!-- 文本框-邮箱 -->
+                <div class="text">
+                    <div class="form-group">
+                        <input type="email" id="email"  placeholder="邮箱" >
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 文本域-内容 -->
+            <div class="form-group">
+                <textarea name="message" id="message"  rows="4" placeholder="内容" ></textarea>
+            </div>
+
+            <!-- 提交按钮 -->
+            <div class="footer">
+                <button class="button"  type="submit"  value="确认发送" >
+                  <span>确认发送</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
